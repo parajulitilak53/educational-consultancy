@@ -1,0 +1,102 @@
+.test_banner .box-container {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.test_banner .box-container .content {
+    flex: 1 1 25rem;
+    padding-top: 1rem;
+    /* background: peachpuff; */
+}
+
+.test_banner .box-container .content h1 {
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.test_banner .box-container .content p {
+    padding-top: 2rem;
+}
+
+.test_banner .box-container .content .banner-btn {
+    margin: 4rem 0;
+}
+
+.test_banner .box-container .img {
+    flex: 1 1 35rem;
+    width: 100%;
+    margin-top: 8rem;
+    padding-top: 10rem;
+    background-size: auto;
+    background: url(../img/tests_up_vector.png) no-repeat left center;
+    background-attachment: scroll;
+}
+
+.test_banner .box-container .img .back_img {
+    float: right;
+    position: relative;
+}
+
+.test_banner .box-container .img .back_img .overlap_img {
+    position: absolute;
+    top: 15%;
+    left: -35%;
+}
+
+.feature .box-container .pad-btn {
+    width: 167px;
+    height: auto;
+    text-align: center;
+}
+
+.exam .box-container .box {
+    overflow: hidden;
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    /* background-color: aquamarine; */
+}
+
+.exam .box-container .box .content {
+    flex: 1 1 35rem;
+    padding: 1rem 0;
+}
+
+.exam .box-container .box .content h1 {
+    padding: 1rem 0;
+}
+
+.exam .box-container .box .content p {
+    padding: 1rem 0;
+}
+
+.exam .box-container .box .content .banner-btn {
+    text-align: center;
+    padding: 4rem 0 0 0;
+}
+
+.exam .box-container .box .content .banner-btn a {
+    padding: 1rem 2rem;
+}
+
+.exam .box-container .box .img {
+    border: 4px solid var(--brand-primary);
+    background: #eaece8;
+    object-fit: cover;
+}
+
+.exam .box-container .box .img img {
+    padding: 1.5rem 0;
+    transform: translateX(-2rem);
+}
+
+.exam .box-container .box .img .translate {
+    transform: translateX(2rem);
+}

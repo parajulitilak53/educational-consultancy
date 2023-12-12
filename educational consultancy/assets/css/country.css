@@ -1,0 +1,194 @@
+.country_banner {
+    padding: 0;
+}
+
+.country_banner .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh !important;
+    max-width: 100% !important;
+    height: 100vh;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    background: url(../img/Australia.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.usa .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh !important;
+    max-width: 100% !important;
+    height: 100vh;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    background: url(../img/usa.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.canada .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh !important;
+    max-width: 100% !important;
+    height: 100vh;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    background: url(../img/canada1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.country_banner .box-container .content h1 {
+    color: var(--white-primary);
+    font-size: 48px;
+    text-align: center;
+    line-height: 62px;
+}
+
+.description .box-container p {
+    text-transform: none;
+}
+
+.description .box-container .choose_country h1 {
+    margin-top: 3rem;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.description .box-container .choose_country .box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    box-shadow: 0px 3px 16px 8px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0px 3px 16px 8px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 3px 16px 8px rgba(0, 0, 0, 0.05);
+}
+
+.description .box-container .choose_country .box .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--brand-secondary);
+}
+
+.description .box-container .choose_country .box .icon i {
+    color: var(--white-primary);
+    font-size: 22px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.description .box-container .choose_country .box .content h5 {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.description .box-container .choose_country .box .content p {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.min_qualification {
+    background: #fdf8f3;
+}
+
+.min_qualification .box-container h1 {
+    font-size: 26px;
+}
+
+.min_qualification .box-container .table-container .box {
+    border: 1px solid #c7c7c7;
+    margin-top: 2rem;
+}
+
+.min_qualification .box-container .table-container .box h5 {
+    padding: 2rem;
+}
+
+.min_qualification .box-container .table-container .box .table {
+    overflow-x: auto;
+}
+
+.min_qualification .box-container .table-container .box .table .styled-table {
+    border-collapse: collapse;
+    border: 1px solid #c7c7c7;
+    font-size: 16px;
+    line-height: 2.5rem;
+    min-width: 250px;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    /* display: none; */
+    margin: 1rem;
+}
+
+.min_qualification .box-container .table-container .box .table .styled-table thead tr {
+    background-color: var(--brand-secondary);
+    color: #ffffff;
+    /* text-align: left; */
+}
+
+.min_qualification .box-container .table-container .box .table .styled-table th,
+.min_qualification .box-container .table-container .box .table .styled-table td {
+    text-transform: none;
+    padding: 12px 8px;
+    border-right: 1px solid #c7c7c7;
+}
+
+.min_qualification .box-container .table-container .box .table .styled-table td {
+    color: var(--brand-secondary-light);
+}
+
+/* .documentation_req .box-container {
+    background-color: aquamarine;
+} */
+
+.documentation_req .box-container h1 {
+    font-size: 26px;
+    line-height: 42px;
+}
+
+.documentation_req .box-container .box h5 {
+    padding: 2rem 0;
+    font-size: 20px;
+    /* color: var(--black); */
+}
+
+.documentation_req .box-container .box p {
+    color: var(--black-light);
+    text-transform: none;
+}
+
+.documentation_req .box-container .box p i {
+    font-size: 22px;
+    color: var(--brand-secondary-light);
+    padding-right: .5rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {}
+
+/* xl */
+@media (max-width: 1280px) {}
+
+/* lg */
+@media (max-width: 1024px) {}
+
+/* md */
+@media (max-width: 768px) {}
+
+/* sm */
+@media (max-width: 640px) {}
+
+/* xs */
+@media (max-width: 475px) {}

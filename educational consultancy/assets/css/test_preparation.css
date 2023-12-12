@@ -1,0 +1,157 @@
+.preparation_banner {
+    margin-top: 7rem;
+}
+
+.preparation_banner .box-container .box {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.preparation_banner .box-container .box .content {
+    flex: 1 1 30rem;
+}
+
+.preparation_banner .box-container .box .content h1 {
+    /* font-size: 40px; */
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: none;
+}
+
+.preparation_banner .box-container .box .content p {
+    text-transform: none;
+}
+
+.preparation_banner .box-container .box .content h5 {
+    text-transform: none;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.preparation_banner .box-container .box .img {
+    flex: 1 1 20rem;
+}
+
+.preparation_banner .box-container .box .img img {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    background: #fdf8f3;
+}
+
+.description .box-container .box h5 {
+    text-transform: none;
+    padding-top: 1rem;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.description .box-container .box p {
+    text-transform: none;
+    padding: 1rem 0;
+}
+
+.description .box-container .box ul {
+    padding-left: 4rem;
+}
+
+.description .box-container .box ol {
+    padding-left: 4rem;
+}
+
+.description .box-container .box ul li {
+    font-size: 18px;
+    color: var(--brand-secondary);
+    padding: .5rem;
+    text-transform: none;
+}
+
+.description .box-container .box ol li {
+    font-size: 18px;
+    color: var(--brand-secondary);
+    padding: .5rem;
+    text-transform: none;
+}
+
+.description .box-container .box .register {
+    list-style: none;
+    padding-left: 0;
+}
+
+.description .box-container .box .register p {
+    font-weight: 600;
+    padding: 0;
+
+}
+
+.description .box-container .box .register li {
+    padding: 1rem 0;
+}
+
+.description .box-container .box .table {
+    overflow-x: auto;
+}
+
+.description .box-container .box .table .styled-table {
+    border-collapse: collapse;
+    border: 1px solid #c7c7c7;
+    margin: 25px 0;
+    font-size: 16px;
+    line-height: 2.5rem;
+    min-width: 250px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.description .box-container .box .table .styled-table thead tr {
+    background-color: var(--brand-secondary);
+    color: #ffffff;
+    text-align: left;
+}
+
+.description .box-container .box .table .styled-table th,
+.description .box-container .box .table .styled-table td {
+    text-transform: none;
+    padding: 12px 15px;
+    border-right: 1px solid #c7c7c7;
+}
+
+.description .box-container .box .table .styled-table td {
+    color: var(--brand-secondary-light);
+}
+
+.description .box-container .box .table .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.description .box-container .box .table .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.description .box-container .box .table .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--brand-secondary);
+}
+
+@media (max-width: 1024px) {
+    .preparation_banner {
+        margin-top: 0rem;
+    }
+
+    .preparation_banner .box-container .box {
+        flex-direction: column-reverse;
+    }
+
+    .preparation_banner .box-container .box .img {
+        padding-top: 0;
+    }
+}

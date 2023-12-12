@@ -1,0 +1,96 @@
+.enquiry {
+    margin-top: 6rem;
+    padding-top: 4rem;
+}
+
+.enquiry form {
+    width: 100%;
+}
+
+.enquiry form h5 {
+    color: var(--brand-secondary);
+    padding: 1rem 0;
+    /* width: 100%; */
+}
+
+.enquiry form input,
+select,
+textarea {
+    border: 1px solid rgb(209, 209, 209);
+    padding: 1rem;
+    border-radius: .5rem;
+    color: #757575;
+    font-weight: 500;
+    background: #f4f7fc;
+}
+
+.enquiry form .basic_info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 3fr));
+    gap: 2rem;
+}
+
+.enquiry form .basic_info input,
+select {
+    max-width: 100%;
+    padding: 1rem;
+    height: auto;
+}
+
+.enquiry form .Academic_Qualification {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 3fr));
+    gap: 2rem;
+}
+
+.enquiry form .Academic_Qualification input,
+select {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.enquiry form .additional_info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 3fr));
+    gap: 2rem;
+}
+
+.enquiry form .additional_info input,
+select {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.enquiry form .about_us {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.enquiry form .about_us .know {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14px;
+    /* color: #757575; */
+}
+
+.enquiry form .message textarea {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.enquiry form .submit {
+    margin-top: 2rem;
+    border-radius: 6rem;
+    border: none;
+    font-size: 18px;
+    color: #ffff;
+    background: linear-gradient(90.49deg, rgba(210, 114, 25, 0.632268) -45.83%, rgba(242, 169, 99, 0.81639) 34.54%, #3196B7 105.87%, rgba(186, 147, 111, 0) 153.19%, rgba(144, 228, 255, 0) 153.21%),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    padding: 1rem 2rem;
+}
